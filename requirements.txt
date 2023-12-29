@@ -3,4 +3,5 @@ pandas
 pickle-mixin
 streamlit
 streamlit-option-menu
+streamlit-components
 scikit-learn
