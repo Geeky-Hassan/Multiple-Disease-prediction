@@ -1,7 +1,7 @@
-python
+python_version=="3.8"
 numpy
 pandas
-pickle
+pickle5
 streamlit
 streamlit-option-menu
 scikit-learn
