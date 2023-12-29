@@ -14,13 +14,6 @@ parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 st.set_page_config(page_title="Multiple Disease Prediction Application")
 
-[theme] # You have to add this line
-
-primaryColor = '#FF8C02' # Bright Orange
-
-backgroundColor = '#00325B' # Dark Blue
-
-secondaryBackgroundColor = '#55B2FF' # Lighter Blue
 # sidebar for navigation
 with st.sidebar:
     
