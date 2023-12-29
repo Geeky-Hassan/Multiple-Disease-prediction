@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-from streamlit_components.footer import footer
+
 
 
 # loading the saved models
@@ -238,12 +238,4 @@ if (selected == "Parkinsons Prediction"):
         
     st.success(parkinsons_diagnosis)
 
-
-footer(
-    text="&copy; 2023 right reserved | Developed by Noor Ul Hassan",
-    links=[
-        {"href": "https://multipledisease.azurewebsites.net/", "text": "Website"},
-        {"href": "https://github.com/Geeky-Hassan/Multiple-Disease-prediction", "text": "GitHub"},
-    ],
-)
 
