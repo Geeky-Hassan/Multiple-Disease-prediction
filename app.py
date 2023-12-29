@@ -18,7 +18,7 @@ st.set_page_config(page_title="Multiple Disease Prediction Application")
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Multiple Disease Prediction System Developed by Noor-Ul-Hassan',
+    selected = option_menu('Multiple Disease Prediction System (AI course project)',
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
